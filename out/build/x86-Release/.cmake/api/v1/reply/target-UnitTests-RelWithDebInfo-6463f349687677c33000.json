@@ -1,0 +1,225 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "BTEngineUnitTests/UnitTests.exe"
+		},
+		{
+			"path" : "BTEngineUnitTests/UnitTests.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"BTEngineUnitTests/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/BTEngineLib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/3rdParty/glm"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/3rdParty/SDL2/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/3rdParty/SDL2_image/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/3rdParty/SDL2_mixer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/3rdParty/SDL2_ttf/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/3rdParty/Box2D/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/3rdParty/steamworks/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/3rdParty/vld/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/School/Howest/Portfolio/BTEngine/out/build/x86-Release/_deps/catch2-src/src/catch2/.."
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "BTEngineLib::@bbe19383aadf853ac8d5"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Catch2WithMain::@fa92aa50e9bf5e1a7206"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Catch2::@fa92aa50e9bf5e1a7206"
+		}
+	],
+	"id" : "UnitTests::@65ac6543b15c1f0fdc33",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /O2 /Ob1 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "BTEngineLib\\BTEngineLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "_deps\\catch2-build\\src\\Catch2Main.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "BTEngineLib\\BTEngineLib.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\3rdParty\\SDL2\\lib\\x86\\SDL2.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\3rdParty\\SDL2\\lib\\x86\\SDL2main.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\3rdParty\\SDL2_image\\lib\\x86\\SDL2_image.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\3rdParty\\SDL2_mixer\\lib\\x86\\SDL2_mixer.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\3rdParty\\SDL2_ttf\\lib\\x86\\SDL2_ttf.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\3rdParty\\Box2D\\x86\\Release\\box2d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\3rdParty\\steamworks\\redistributable_bin\\steam_api.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "..\\..\\..\\3rdParty\\vld\\lib\\x86\\vld.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "_deps\\catch2-build\\src\\Catch2.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "UnitTests",
+	"nameOnDisk" : "UnitTests.exe",
+	"paths" : 
+	{
+		"build" : "BTEngineUnitTests",
+		"source" : "BTEngineUnitTests"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BTEngineUnitTests/UnitTests.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
