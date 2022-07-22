@@ -77,7 +77,7 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/School/Howest/Portfolio/BTEngine/BTEngineLib"
+					"path" : "C:/School/Howest/Portfolio/BTEngine/BumblebeeLib"
 				},
 				{
 					"backtrace" : 3,
@@ -134,7 +134,7 @@
 	[
 		{
 			"backtrace" : 5,
-			"id" : "BTEngineLib::@bbe19383aadf853ac8d5"
+			"id" : "BumblebeeLib::@693704cec494709bfb99"
 		}
 	],
 	"id" : "BurgerTime::@fc80d7c74ca4b982779e",
@@ -166,7 +166,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "BTEngineLib\\BTEngineLib.lib",
+				"fragment" : "BumblebeeLib\\BumblebeeLib.lib",
 				"role" : "libraries"
 			},
 			{

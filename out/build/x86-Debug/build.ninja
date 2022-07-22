@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: BTEngine
+# Project: BumblebeeEngine
 # Configurations: Debug
 # =============================================================================
 
@@ -123,674 +123,674 @@ build list_install_components: phony
 # =============================================================================
 
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target BTEngineLib
+# Object build statements for STATIC_LIBRARY target BumblebeeLib
 
 
 #############################################
-# Order-only phony target for BTEngineLib
+# Order-only phony target for BumblebeeLib
 
-build cmake_object_order_depends_target_BTEngineLib: phony || BTEngineLib\CMakeFiles\BTEngineLib.dir
+build cmake_object_order_depends_target_BumblebeeLib: phony || BumblebeeLib\CMakeFiles\BumblebeeLib.dir
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\InputManager2.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\InputManager2.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\InputManager2.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\InputManager2.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Keyboard.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Keyboard.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Keyboard.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Keyboard.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Main.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Main.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Main.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Main.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Minigin.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Minigin.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Minigin.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Minigin.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\AchievementSystem.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\AchievementSystem.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AchievementSystem.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\AchievementSystem.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Animation.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Animation.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Animation.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Animation.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\AnimationComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\AnimationComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AnimationComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\AnimationComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\AudioClip.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\AudioClip.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AudioClip.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\AudioClip.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\AudioClipImpl.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\AudioClipImpl.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AudioClipImpl.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\AudioClipImpl.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\AudioSystemLocator.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\AudioSystemLocator.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AudioSystemLocator.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\AudioSystemLocator.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\BaseComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\BaseComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BaseComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\BaseComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\BoxCollider.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\BoxCollider.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BoxCollider.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\BoxCollider.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\CacheDataGenerator.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\CacheDataGenerator.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\CacheDataGenerator.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\CacheDataGenerator.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\CircleCollider.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\CircleCollider.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\CircleCollider.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\CircleCollider.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\ColliderComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\ColliderComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ColliderComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\ColliderComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\CollisionComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\CollisionComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\CollisionComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\CollisionComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Command.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Command.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Command.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Command.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\ContactListener.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\ContactListener.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ContactListener.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\ContactListener.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\DebugSettings.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\DebugSettings.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\DebugSettings.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\DebugSettings.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Font.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Font.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Font.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Font.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\FPSComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\FPSComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\FPSComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\FPSComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\GameObject.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\GameObject.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\GameObject.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\GameObject.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\ImgGuiRenderComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\ImgGuiRenderComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ImgGuiRenderComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\ImgGuiRenderComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\imgui.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\imgui.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_demo.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\imgui_demo.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_demo.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\imgui_demo.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_draw.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\imgui_draw.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_draw.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\imgui_draw.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_impl_opengl2.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\imgui_impl_opengl2.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_impl_opengl2.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\imgui_impl_opengl2.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_impl_sdl.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\imgui_impl_sdl.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_impl_sdl.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\imgui_impl_sdl.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_plot.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\imgui_plot.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_plot.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\imgui_plot.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_tables.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\imgui_tables.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_tables.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\imgui_tables.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_widgets.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\imgui_widgets.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_widgets.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\imgui_widgets.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\ImGuiPlotComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\ImGuiPlotComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ImGuiPlotComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\ImGuiPlotComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\InputManager.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\InputManager.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\InputManager.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\InputManager.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\World.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\World.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\World.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\World.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\XboxController.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\XboxController.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\XboxController.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\XboxController.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\XboxControllerImpl.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\XboxControllerImpl.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\XboxControllerImpl.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\XboxControllerImpl.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\MiniginPCH.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\MiniginPCH.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\MiniginPCH.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\MiniginPCH.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\NullAudioSystem.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\NullAudioSystem.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\NullAudioSystem.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\NullAudioSystem.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Observer.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Observer.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Observer.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Observer.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\PhysicsManager.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\PhysicsManager.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\PhysicsManager.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\PhysicsManager.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\RenderComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\RenderComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\RenderComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\RenderComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Renderer.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Renderer.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Renderer.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Renderer.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\ResourceManager.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\ResourceManager.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ResourceManager.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\ResourceManager.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\RigidBodyComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\RigidBodyComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\RigidBodyComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\RigidBodyComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Scene.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Scene.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Scene.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Scene.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\SceneManager.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\SceneManager.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\SceneManager.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\SceneManager.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Subject.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Subject.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Subject.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Subject.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\temp.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\temp.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\temp.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\temp.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\TextComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\TextComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\TextComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\TextComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\TextObject.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\TextObject.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\TextObject.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\TextObject.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Texture2D.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Texture2D.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Texture2D.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Texture2D.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\TimeManager.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\TimeManager.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\TimeManager.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\TimeManager.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\Transform.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\Transform.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Transform.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\Transform.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\TransformComponent.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\TransformComponent.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\TransformComponent.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\TransformComponent.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\WindowsAudioSystem.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\WindowsAudioSystem.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\WindowsAudioSystem.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\WindowsAudioSystem.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
-build BTEngineLib\CMakeFiles\BTEngineLib.dir\WindowsAudioSystemImpl.cpp.obj: CXX_COMPILER__BTEngineLib_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineLib\WindowsAudioSystemImpl.cpp || cmake_object_order_depends_target_BTEngineLib
+build BumblebeeLib\CMakeFiles\BumblebeeLib.dir\WindowsAudioSystemImpl.cpp.obj: CXX_COMPILER__BumblebeeLib_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeLib\WindowsAudioSystemImpl.cpp || cmake_object_order_depends_target_BumblebeeLib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
   INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  OBJECT_FILE_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  OBJECT_FILE_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target BTEngineLib
+# Link build statements for STATIC_LIBRARY target BumblebeeLib
 
 
 #############################################
-# Link the static library BTEngineLib\BTEngineLib.lib
+# Link the static library BumblebeeLib\BumblebeeLib.lib
 
-build BTEngineLib\BTEngineLib.lib: CXX_STATIC_LIBRARY_LINKER__BTEngineLib_Debug BTEngineLib\CMakeFiles\BTEngineLib.dir\InputManager2.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Keyboard.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Main.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Minigin.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\AchievementSystem.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Animation.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\AnimationComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\AudioClip.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\AudioClipImpl.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\AudioSystemLocator.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\BaseComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\BoxCollider.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\CacheDataGenerator.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\CircleCollider.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\ColliderComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\CollisionComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Command.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\ContactListener.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\DebugSettings.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Font.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\FPSComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\GameObject.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\ImgGuiRenderComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_demo.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_draw.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_impl_opengl2.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_impl_sdl.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_plot.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_tables.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\imgui_widgets.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\ImGuiPlotComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\InputManager.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\World.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\XboxController.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\XboxControllerImpl.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\MiniginPCH.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\NullAudioSystem.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Observer.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\PhysicsManager.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\RenderComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Renderer.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\ResourceManager.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\RigidBodyComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Scene.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\SceneManager.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Subject.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\temp.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\TextComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\TextObject.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Texture2D.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\TimeManager.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\Transform.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\TransformComponent.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\WindowsAudioSystem.cpp.obj BTEngineLib\CMakeFiles\BTEngineLib.dir\WindowsAudioSystemImpl.cpp.obj
+build BumblebeeLib\BumblebeeLib.lib: CXX_STATIC_LIBRARY_LINKER__BumblebeeLib_Debug BumblebeeLib\CMakeFiles\BumblebeeLib.dir\InputManager2.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Keyboard.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Main.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Minigin.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AchievementSystem.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Animation.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AnimationComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AudioClip.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AudioClipImpl.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\AudioSystemLocator.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BaseComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BoxCollider.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\CacheDataGenerator.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\CircleCollider.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ColliderComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\CollisionComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Command.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ContactListener.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\DebugSettings.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Font.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\FPSComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\GameObject.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ImgGuiRenderComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_demo.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_draw.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_impl_opengl2.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_impl_sdl.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_plot.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_tables.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\imgui_widgets.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ImGuiPlotComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\InputManager.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\World.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\XboxController.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\XboxControllerImpl.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\MiniginPCH.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\NullAudioSystem.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Observer.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\PhysicsManager.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\RenderComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Renderer.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\ResourceManager.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\RigidBodyComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Scene.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\SceneManager.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Subject.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\temp.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\TextComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\TextObject.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Texture2D.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\TimeManager.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\Transform.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\TransformComponent.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\WindowsAudioSystem.cpp.obj BumblebeeLib\CMakeFiles\BumblebeeLib.dir\WindowsAudioSystemImpl.cpp.obj
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86
-  OBJECT_DIR = BTEngineLib\CMakeFiles\BTEngineLib.dir
+  OBJECT_DIR = BumblebeeLib\CMakeFiles\BumblebeeLib.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = BTEngineLib\CMakeFiles\BTEngineLib.dir\BTEngineLib.pdb
-  TARGET_FILE = BTEngineLib\BTEngineLib.lib
-  TARGET_PDB = BTEngineLib\BTEngineLib.pdb
+  TARGET_COMPILE_PDB = BumblebeeLib\CMakeFiles\BumblebeeLib.dir\BumblebeeLib.pdb
+  TARGET_FILE = BumblebeeLib\BumblebeeLib.lib
+  TARGET_PDB = BumblebeeLib\BumblebeeLib.pdb
 
 
 #############################################
 # Utility command for package_source
 
-build BTEngineLib\CMakeFiles\package_source.util: CUSTOM_COMMAND
+build BumblebeeLib\CMakeFiles\package_source.util: CUSTOM_COMMAND
   COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
 
-build BTEngineLib\package_source: phony BTEngineLib\CMakeFiles\package_source.util
+build BumblebeeLib\package_source: phony BumblebeeLib\CMakeFiles\package_source.util
 
 
 #############################################
 # Utility command for package
 
-build BTEngineLib\CMakeFiles\package.util: CUSTOM_COMMAND BTEngineLib\all
+build BumblebeeLib\CMakeFiles\package.util: CUSTOM_COMMAND BumblebeeLib\all
   COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build BTEngineLib\package: phony BTEngineLib\CMakeFiles\package.util
+build BumblebeeLib\package: phony BumblebeeLib\CMakeFiles\package.util
 
 
 #############################################
 # Utility command for install/local
 
-build BTEngineLib\CMakeFiles\install\local.util: CUSTOM_COMMAND BTEngineLib\all
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineLib && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build BumblebeeLib\CMakeFiles\install\local.util: CUSTOM_COMMAND BumblebeeLib\all
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeLib && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build BTEngineLib\install\local: phony BTEngineLib\CMakeFiles\install\local.util
+build BumblebeeLib\install\local: phony BumblebeeLib\CMakeFiles\install\local.util
 
 
 #############################################
 # Utility command for install
 
-build BTEngineLib\CMakeFiles\install.util: CUSTOM_COMMAND BTEngineLib\all
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineLib && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+build BumblebeeLib\CMakeFiles\install.util: CUSTOM_COMMAND BumblebeeLib\all
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeLib && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build BTEngineLib\install: phony BTEngineLib\CMakeFiles\install.util
+build BumblebeeLib\install: phony BumblebeeLib\CMakeFiles\install.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build BTEngineLib\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineLib && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build BumblebeeLib\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeLib && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build BTEngineLib\edit_cache: phony BTEngineLib\CMakeFiles\edit_cache.util
+build BumblebeeLib\edit_cache: phony BumblebeeLib\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build BTEngineLib\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineLib && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\School\Howest\Portfolio\BTEngine -BC:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug"
+build BumblebeeLib\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeLib && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\School\Howest\Portfolio\BTEngine -BC:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build BTEngineLib\rebuild_cache: phony BTEngineLib\CMakeFiles\rebuild_cache.util
+build BumblebeeLib\rebuild_cache: phony BumblebeeLib\CMakeFiles\rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build BTEngineLib\list_install_components: phony
+build BumblebeeLib\list_install_components: phony
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
 # C:/School/Howest/Portfolio/BTEngine/CMakeLists.txt
 # =============================================================================
 
+
+#############################################
+# Utility command for package_source
+
+build BumblebeeEditor\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build BumblebeeEditor\package_source: phony BumblebeeEditor\CMakeFiles\package_source.util
+
 # =============================================================================
-# Object build statements for EXECUTABLE target BTEngineVisualEditor
+# Object build statements for EXECUTABLE target BumblebeeEditor
 
 
 #############################################
-# Order-only phony target for BTEngineVisualEditor
+# Order-only phony target for BumblebeeEditor
 
-build cmake_object_order_depends_target_BTEngineVisualEditor: phony || cmake_object_order_depends_target_BTEngineLib
+build cmake_object_order_depends_target_BumblebeeEditor: phony || cmake_object_order_depends_target_BumblebeeLib
 
-build BTEngineVisualEditor\CMakeFiles\BTEngineVisualEditor.dir\main.cpp.obj: CXX_COMPILER__BTEngineVisualEditor_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineVisualEditor\main.cpp || cmake_object_order_depends_target_BTEngineVisualEditor
+build BumblebeeEditor\CMakeFiles\BumblebeeEditor.dir\main.cpp.obj: CXX_COMPILER__BumblebeeEditor_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeEditor\main.cpp || cmake_object_order_depends_target_BumblebeeEditor
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  OBJECT_DIR = BTEngineVisualEditor\CMakeFiles\BTEngineVisualEditor.dir
-  OBJECT_FILE_DIR = BTEngineVisualEditor\CMakeFiles\BTEngineVisualEditor.dir
-  TARGET_COMPILE_PDB = BTEngineVisualEditor\CMakeFiles\BTEngineVisualEditor.dir\
-  TARGET_PDB = BTEngineVisualEditor\BTEngineVisualEditor.pdb
+  OBJECT_DIR = BumblebeeEditor\CMakeFiles\BumblebeeEditor.dir
+  OBJECT_FILE_DIR = BumblebeeEditor\CMakeFiles\BumblebeeEditor.dir
+  TARGET_COMPILE_PDB = BumblebeeEditor\CMakeFiles\BumblebeeEditor.dir\
+  TARGET_PDB = BumblebeeEditor\BumblebeeEditor.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target BTEngineVisualEditor
+# Link build statements for EXECUTABLE target BumblebeeEditor
 
 
 #############################################
-# Link the executable BTEngineVisualEditor\BTEngineVisualEditor.exe
+# Link the executable BumblebeeEditor\BumblebeeEditor.exe
 
-build BTEngineVisualEditor\BTEngineVisualEditor.exe: CXX_EXECUTABLE_LINKER__BTEngineVisualEditor_Debug BTEngineVisualEditor\CMakeFiles\BTEngineVisualEditor.dir\main.cpp.obj || BTEngineLib\BTEngineLib.lib
+build BumblebeeEditor\BumblebeeEditor.exe: CXX_EXECUTABLE_LINKER__BumblebeeEditor_Debug BumblebeeEditor\CMakeFiles\BumblebeeEditor.dir\main.cpp.obj || BumblebeeLib\BumblebeeLib.lib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = BTEngineVisualEditor\CMakeFiles\BTEngineVisualEditor.dir
+  OBJECT_DIR = BumblebeeEditor\CMakeFiles\BumblebeeEditor.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = BTEngineVisualEditor\CMakeFiles\BTEngineVisualEditor.dir\
-  TARGET_FILE = BTEngineVisualEditor\BTEngineVisualEditor.exe
-  TARGET_IMPLIB = BTEngineVisualEditor\BTEngineVisualEditor.lib
-  TARGET_PDB = BTEngineVisualEditor\BTEngineVisualEditor.pdb
+  TARGET_COMPILE_PDB = BumblebeeEditor\CMakeFiles\BumblebeeEditor.dir\
+  TARGET_FILE = BumblebeeEditor\BumblebeeEditor.exe
+  TARGET_IMPLIB = BumblebeeEditor\BumblebeeEditor.lib
+  TARGET_PDB = BumblebeeEditor\BumblebeeEditor.pdb
 
 
 #############################################
 # Utility command for package
 
-build BTEngineVisualEditor\CMakeFiles\package.util: CUSTOM_COMMAND BTEngineVisualEditor\all
+build BumblebeeEditor\CMakeFiles\package.util: CUSTOM_COMMAND BumblebeeEditor\all
   COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
 
-build BTEngineVisualEditor\package: phony BTEngineVisualEditor\CMakeFiles\package.util
-
-
-#############################################
-# Utility command for package_source
-
-build BTEngineVisualEditor\CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/CPackSourceConfig.cmake"
-  DESC = Run CPack packaging tool for source...
-  pool = console
-  restat = 1
-
-build BTEngineVisualEditor\package_source: phony BTEngineVisualEditor\CMakeFiles\package_source.util
+build BumblebeeEditor\package: phony BumblebeeEditor\CMakeFiles\package.util
 
 
 #############################################
 # Utility command for install/local
 
-build BTEngineVisualEditor\CMakeFiles\install\local.util: CUSTOM_COMMAND BTEngineVisualEditor\all
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineVisualEditor && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build BumblebeeEditor\CMakeFiles\install\local.util: CUSTOM_COMMAND BumblebeeEditor\all
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeEditor && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build BTEngineVisualEditor\install\local: phony BTEngineVisualEditor\CMakeFiles\install\local.util
+build BumblebeeEditor\install\local: phony BumblebeeEditor\CMakeFiles\install\local.util
 
 
 #############################################
 # Utility command for install
 
-build BTEngineVisualEditor\CMakeFiles\install.util: CUSTOM_COMMAND BTEngineVisualEditor\all
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineVisualEditor && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+build BumblebeeEditor\CMakeFiles\install.util: CUSTOM_COMMAND BumblebeeEditor\all
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeEditor && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
   DESC = Install the project...
   pool = console
   restat = 1
 
-build BTEngineVisualEditor\install: phony BTEngineVisualEditor\CMakeFiles\install.util
+build BumblebeeEditor\install: phony BumblebeeEditor\CMakeFiles\install.util
 
 
 #############################################
 # Utility command for edit_cache
 
-build BTEngineVisualEditor\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineVisualEditor && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build BumblebeeEditor\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeEditor && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build BTEngineVisualEditor\edit_cache: phony BTEngineVisualEditor\CMakeFiles\edit_cache.util
+build BumblebeeEditor\edit_cache: phony BumblebeeEditor\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build BTEngineVisualEditor\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineVisualEditor && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\School\Howest\Portfolio\BTEngine -BC:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug"
+build BumblebeeEditor\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeEditor && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\School\Howest\Portfolio\BTEngine -BC:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build BTEngineVisualEditor\rebuild_cache: phony BTEngineVisualEditor\CMakeFiles\rebuild_cache.util
+build BumblebeeEditor\rebuild_cache: phony BumblebeeEditor\CMakeFiles\rebuild_cache.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build BTEngineVisualEditor\list_install_components: phony
+build BumblebeeEditor\list_install_components: phony
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -801,36 +801,13 @@ build BTEngineVisualEditor\list_install_components: phony
 #############################################
 # Utility command for install/local
 
-build BTEngineUnitTests\CMakeFiles\install\local.util: CUSTOM_COMMAND BTEngineUnitTests\all
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineUnitTests && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+build BumblebeeUnitTests\CMakeFiles\install\local.util: CUSTOM_COMMAND BumblebeeUnitTests\all
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeUnitTests && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
   DESC = Installing only the local directory...
   pool = console
   restat = 1
 
-build BTEngineUnitTests\install\local: phony BTEngineUnitTests\CMakeFiles\install\local.util
-
-
-#############################################
-# Utility command for install
-
-build BTEngineUnitTests\CMakeFiles\install.util: CUSTOM_COMMAND BTEngineUnitTests\all
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineUnitTests && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
-  DESC = Install the project...
-  pool = console
-  restat = 1
-
-build BTEngineUnitTests\install: phony BTEngineUnitTests\CMakeFiles\install.util
-
-
-#############################################
-# Utility command for edit_cache
-
-build BTEngineUnitTests\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineUnitTests && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build BTEngineUnitTests\edit_cache: phony BTEngineUnitTests\CMakeFiles\edit_cache.util
+build BumblebeeUnitTests\install\local: phony BumblebeeUnitTests\CMakeFiles\install\local.util
 
 # =============================================================================
 # Object build statements for EXECUTABLE target UnitTests
@@ -839,15 +816,15 @@ build BTEngineUnitTests\edit_cache: phony BTEngineUnitTests\CMakeFiles\edit_cach
 #############################################
 # Order-only phony target for UnitTests
 
-build cmake_object_order_depends_target_UnitTests: phony || cmake_object_order_depends_target_BTEngineLib cmake_object_order_depends_target_Catch2 cmake_object_order_depends_target_Catch2WithMain
+build cmake_object_order_depends_target_UnitTests: phony || cmake_object_order_depends_target_BumblebeeLib cmake_object_order_depends_target_Catch2 cmake_object_order_depends_target_Catch2WithMain
 
-build BTEngineUnitTests\CMakeFiles\UnitTests.dir\UnitTests.cpp.obj: CXX_COMPILER__UnitTests_Debug C$:\School\Howest\Portfolio\BTEngine\BTEngineUnitTests\UnitTests.cpp || cmake_object_order_depends_target_UnitTests
+build BumblebeeUnitTests\CMakeFiles\UnitTests.dir\UnitTests.cpp.obj: CXX_COMPILER__UnitTests_Debug C$:\School\Howest\Portfolio\BTEngine\BumblebeeUnitTests\UnitTests.cpp || cmake_object_order_depends_target_UnitTests
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include -IC:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\_deps\catch2-src\src\catch2\..
-  OBJECT_DIR = BTEngineUnitTests\CMakeFiles\UnitTests.dir
-  OBJECT_FILE_DIR = BTEngineUnitTests\CMakeFiles\UnitTests.dir
-  TARGET_COMPILE_PDB = BTEngineUnitTests\CMakeFiles\UnitTests.dir\
-  TARGET_PDB = BTEngineUnitTests\UnitTests.pdb
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include -IC:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\_deps\catch2-src\src\catch2\..
+  OBJECT_DIR = BumblebeeUnitTests\CMakeFiles\UnitTests.dir
+  OBJECT_FILE_DIR = BumblebeeUnitTests\CMakeFiles\UnitTests.dir
+  TARGET_COMPILE_PDB = BumblebeeUnitTests\CMakeFiles\UnitTests.dir\
+  TARGET_PDB = BumblebeeUnitTests\UnitTests.pdb
 
 
 # =============================================================================
@@ -855,65 +832,102 @@ build BTEngineUnitTests\CMakeFiles\UnitTests.dir\UnitTests.cpp.obj: CXX_COMPILER
 
 
 #############################################
-# Link the executable BTEngineUnitTests\UnitTests.exe
+# Link the executable BumblebeeUnitTests\UnitTests.exe
 
-build BTEngineUnitTests\UnitTests.exe: CXX_EXECUTABLE_LINKER__UnitTests_Debug BTEngineUnitTests\CMakeFiles\UnitTests.dir\UnitTests.cpp.obj | BTEngineLib\BTEngineLib.lib _deps\catch2-build\src\Catch2Main.lib BTEngineLib\BTEngineLib.lib ..\..\..\3rdParty\SDL2\lib\x86\SDL2.lib ..\..\..\3rdParty\SDL2\lib\x86\SDL2main.lib ..\..\..\3rdParty\SDL2_image\lib\x86\SDL2_image.lib ..\..\..\3rdParty\SDL2_mixer\lib\x86\SDL2_mixer.lib ..\..\..\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.lib ..\..\..\3rdParty\Box2D\x86\Debug\box2d.lib ..\..\..\3rdParty\steamworks\redistributable_bin\steam_api.lib ..\..\..\3rdParty\vld\lib\x86\vld.lib _deps\catch2-build\src\Catch2.lib || BTEngineLib\BTEngineLib.lib _deps\catch2-build\src\Catch2.lib _deps\catch2-build\src\Catch2Main.lib
+build BumblebeeUnitTests\UnitTests.exe: CXX_EXECUTABLE_LINKER__UnitTests_Debug BumblebeeUnitTests\CMakeFiles\UnitTests.dir\UnitTests.cpp.obj | BumblebeeLib\BumblebeeLib.lib _deps\catch2-build\src\Catch2Main.lib BumblebeeLib\BumblebeeLib.lib ..\..\..\3rdParty\SDL2\lib\x86\SDL2.lib ..\..\..\3rdParty\SDL2\lib\x86\SDL2main.lib ..\..\..\3rdParty\SDL2_image\lib\x86\SDL2_image.lib ..\..\..\3rdParty\SDL2_mixer\lib\x86\SDL2_mixer.lib ..\..\..\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.lib ..\..\..\3rdParty\Box2D\x86\Debug\box2d.lib ..\..\..\3rdParty\steamworks\redistributable_bin\steam_api.lib ..\..\..\3rdParty\vld\lib\x86\vld.lib _deps\catch2-build\src\Catch2.lib || BumblebeeLib\BumblebeeLib.lib _deps\catch2-build\src\Catch2.lib _deps\catch2-build\src\Catch2Main.lib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = BTEngineLib\BTEngineLib.lib  _deps\catch2-build\src\Catch2Main.lib  BTEngineLib\BTEngineLib.lib  ..\..\..\3rdParty\SDL2\lib\x86\SDL2.lib  ..\..\..\3rdParty\SDL2\lib\x86\SDL2main.lib  ..\..\..\3rdParty\SDL2_image\lib\x86\SDL2_image.lib  ..\..\..\3rdParty\SDL2_mixer\lib\x86\SDL2_mixer.lib  ..\..\..\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.lib  ..\..\..\3rdParty\Box2D\x86\Debug\box2d.lib  ..\..\..\3rdParty\steamworks\redistributable_bin\steam_api.lib  ..\..\..\3rdParty\vld\lib\x86\vld.lib  opengl32.lib  _deps\catch2-build\src\Catch2.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = BTEngineUnitTests\CMakeFiles\UnitTests.dir
+  LINK_LIBRARIES = BumblebeeLib\BumblebeeLib.lib  _deps\catch2-build\src\Catch2Main.lib  BumblebeeLib\BumblebeeLib.lib  ..\..\..\3rdParty\SDL2\lib\x86\SDL2.lib  ..\..\..\3rdParty\SDL2\lib\x86\SDL2main.lib  ..\..\..\3rdParty\SDL2_image\lib\x86\SDL2_image.lib  ..\..\..\3rdParty\SDL2_mixer\lib\x86\SDL2_mixer.lib  ..\..\..\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.lib  ..\..\..\3rdParty\Box2D\x86\Debug\box2d.lib  ..\..\..\3rdParty\steamworks\redistributable_bin\steam_api.lib  ..\..\..\3rdParty\vld\lib\x86\vld.lib  opengl32.lib  _deps\catch2-build\src\Catch2.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = BumblebeeUnitTests\CMakeFiles\UnitTests.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = BTEngineUnitTests\CMakeFiles\UnitTests.dir\
-  TARGET_FILE = BTEngineUnitTests\UnitTests.exe
-  TARGET_IMPLIB = BTEngineUnitTests\UnitTests.lib
-  TARGET_PDB = BTEngineUnitTests\UnitTests.pdb
+  TARGET_COMPILE_PDB = BumblebeeUnitTests\CMakeFiles\UnitTests.dir\
+  TARGET_FILE = BumblebeeUnitTests\UnitTests.exe
+  TARGET_IMPLIB = BumblebeeUnitTests\UnitTests.lib
+  TARGET_PDB = BumblebeeUnitTests\UnitTests.pdb
 
 
 #############################################
-# Utility command for package
+# Utility command for install
 
-build BTEngineUnitTests\CMakeFiles\package.util: CUSTOM_COMMAND BTEngineUnitTests\all
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
-  DESC = Run CPack packaging tool...
+build BumblebeeUnitTests\CMakeFiles\install.util: CUSTOM_COMMAND BumblebeeUnitTests\all
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeUnitTests && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
   pool = console
   restat = 1
 
-build BTEngineUnitTests\package: phony BTEngineUnitTests\CMakeFiles\package.util
+build BumblebeeUnitTests\install: phony BumblebeeUnitTests\CMakeFiles\install.util
 
 
 #############################################
-# Utility command for package_source
+# Utility command for edit_cache
 
-build BTEngineUnitTests\CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/CPackSourceConfig.cmake"
-  DESC = Run CPack packaging tool for source...
-  pool = console
+build BumblebeeUnitTests\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeUnitTests && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
   restat = 1
 
-build BTEngineUnitTests\package_source: phony BTEngineUnitTests\CMakeFiles\package_source.util
+build BumblebeeUnitTests\edit_cache: phony BumblebeeUnitTests\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build BTEngineUnitTests\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BTEngineUnitTests && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\School\Howest\Portfolio\BTEngine -BC:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug"
+build BumblebeeUnitTests\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeUnitTests && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\School\Howest\Portfolio\BTEngine -BC:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build BTEngineUnitTests\rebuild_cache: phony BTEngineUnitTests\CMakeFiles\rebuild_cache.util
+build BumblebeeUnitTests\rebuild_cache: phony BumblebeeUnitTests\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for UnitTestsRun
+
+build BumblebeeUnitTests\UnitTestsRun: phony BumblebeeUnitTests\CMakeFiles\UnitTestsRun BumblebeeUnitTests\UnitTests.exe
+
+
+#############################################
+# Utility command for package
+
+build BumblebeeUnitTests\CMakeFiles\package.util: CUSTOM_COMMAND BumblebeeUnitTests\all
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build BumblebeeUnitTests\package: phony BumblebeeUnitTests\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build BumblebeeUnitTests\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug && "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build BumblebeeUnitTests\package_source: phony BumblebeeUnitTests\CMakeFiles\package_source.util
 
 
 #############################################
 # Utility command for list_install_components
 
-build BTEngineUnitTests\list_install_components: phony
+build BumblebeeUnitTests\list_install_components: phony
+
+
+#############################################
+# Custom command for BumblebeeUnitTests\CMakeFiles\UnitTestsRun
+
+build BumblebeeUnitTests\CMakeFiles\UnitTestsRun | ${cmake_ninja_workdir}BumblebeeUnitTests\CMakeFiles\UnitTestsRun: CUSTOM_COMMAND || BumblebeeLib\BumblebeeLib.lib BumblebeeUnitTests\UnitTests.exe _deps\catch2-build\src\Catch2.lib _deps\catch2-build\src\Catch2Main.lib
+  COMMAND = cmd.exe /C "cd /D C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeUnitTests && C:\School\Howest\Portfolio\BTEngine\out\build\x86-Debug\BumblebeeUnitTests\UnitTests.exe -d yes"
+  DESC = Running BTEngineTests Tests
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/School/Howest/Portfolio/BTEngine/BTEngineUnitTests/CMakeLists.txt
+# C:/School/Howest/Portfolio/BTEngine/BumblebeeUnitTests/CMakeLists.txt
 # =============================================================================
 
 
@@ -2073,11 +2087,11 @@ build BurgerTime\package_source: phony BurgerTime\CMakeFiles\package_source.util
 #############################################
 # Order-only phony target for BurgerTime
 
-build cmake_object_order_depends_target_BurgerTime: phony || cmake_object_order_depends_target_BTEngineLib
+build cmake_object_order_depends_target_BurgerTime: phony || cmake_object_order_depends_target_BumblebeeLib
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\MrPepperComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\MrPepperComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2085,7 +2099,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\MrPepperComponent.cpp.obj: CXX_COMPIL
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\PlatformComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\PlatformComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2093,7 +2107,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\PlatformComponent.cpp.obj: CXX_COMPIL
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\PointsComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\PointsComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2101,7 +2115,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\PointsComponent.cpp.obj: CXX_COMPILER
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\BurgerComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\BurgerComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2109,7 +2123,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\BurgerComponent.cpp.obj: CXX_COMPILER
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\BurgerEngine.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\BurgerEngine.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2117,7 +2131,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\BurgerEngine.cpp.obj: CXX_COMPILER__B
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\BurgerTime.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\BurgerTime.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2125,7 +2139,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\BurgerTime.cpp.obj: CXX_COMPILER__Bur
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\Commands.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\Commands.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2133,7 +2147,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\Commands.cpp.obj: CXX_COMPILER__Burge
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\EnemyComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\EnemyComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2141,7 +2155,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\EnemyComponent.cpp.obj: CXX_COMPILER_
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\IngredientPartComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\IngredientPartComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2149,7 +2163,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\IngredientPartComponent.cpp.obj: CXX_
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\IngridientComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\IngridientComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2157,7 +2171,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\IngridientComponent.cpp.obj: CXX_COMP
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\LevelComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\LevelComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2165,7 +2179,7 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\LevelComponent.cpp.obj: CXX_COMPILER_
 
 build BurgerTime\CMakeFiles\BurgerTime.dir\LivesComponent.cpp.obj: CXX_COMPILER__BurgerTime_Debug C$:\School\Howest\Portfolio\BTEngine\BurgerTime\LivesComponent.cpp || cmake_object_order_depends_target_BurgerTime
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BTEngineLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
+  INCLUDES = -IC:\School\Howest\Portfolio\BTEngine\BumblebeeLib -IC:\School\Howest\Portfolio\BTEngine\3rdParty\glm -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_image\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_mixer\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\SDL2_ttf\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\Box2D\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\steamworks\include -IC:\School\Howest\Portfolio\BTEngine\3rdParty\vld\include
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   OBJECT_FILE_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   TARGET_COMPILE_PDB = BurgerTime\CMakeFiles\BurgerTime.dir\
@@ -2179,10 +2193,10 @@ build BurgerTime\CMakeFiles\BurgerTime.dir\LivesComponent.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable BurgerTime\BurgerTime.exe
 
-build BurgerTime\BurgerTime.exe: CXX_EXECUTABLE_LINKER__BurgerTime_Debug BurgerTime\CMakeFiles\BurgerTime.dir\MrPepperComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\PlatformComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\PointsComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\BurgerComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\BurgerEngine.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\BurgerTime.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\Commands.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\EnemyComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\IngredientPartComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\IngridientComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\LevelComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\LivesComponent.cpp.obj | BTEngineLib\BTEngineLib.lib ..\..\..\3rdParty\SDL2\lib\x86\SDL2.lib ..\..\..\3rdParty\SDL2\lib\x86\SDL2main.lib ..\..\..\3rdParty\SDL2_image\lib\x86\SDL2_image.lib ..\..\..\3rdParty\SDL2_mixer\lib\x86\SDL2_mixer.lib ..\..\..\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.lib ..\..\..\3rdParty\Box2D\x86\Debug\box2d.lib ..\..\..\3rdParty\steamworks\redistributable_bin\steam_api.lib ..\..\..\3rdParty\vld\lib\x86\vld.lib || BTEngineLib\BTEngineLib.lib
+build BurgerTime\BurgerTime.exe: CXX_EXECUTABLE_LINKER__BurgerTime_Debug BurgerTime\CMakeFiles\BurgerTime.dir\MrPepperComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\PlatformComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\PointsComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\BurgerComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\BurgerEngine.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\BurgerTime.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\Commands.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\EnemyComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\IngredientPartComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\IngridientComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\LevelComponent.cpp.obj BurgerTime\CMakeFiles\BurgerTime.dir\LivesComponent.cpp.obj | BumblebeeLib\BumblebeeLib.lib ..\..\..\3rdParty\SDL2\lib\x86\SDL2.lib ..\..\..\3rdParty\SDL2\lib\x86\SDL2main.lib ..\..\..\3rdParty\SDL2_image\lib\x86\SDL2_image.lib ..\..\..\3rdParty\SDL2_mixer\lib\x86\SDL2_mixer.lib ..\..\..\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.lib ..\..\..\3rdParty\Box2D\x86\Debug\box2d.lib ..\..\..\3rdParty\steamworks\redistributable_bin\steam_api.lib ..\..\..\3rdParty\vld\lib\x86\vld.lib || BumblebeeLib\BumblebeeLib.lib
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:X86 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = BTEngineLib\BTEngineLib.lib  ..\..\..\3rdParty\SDL2\lib\x86\SDL2.lib  ..\..\..\3rdParty\SDL2\lib\x86\SDL2main.lib  ..\..\..\3rdParty\SDL2_image\lib\x86\SDL2_image.lib  ..\..\..\3rdParty\SDL2_mixer\lib\x86\SDL2_mixer.lib  ..\..\..\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.lib  ..\..\..\3rdParty\Box2D\x86\Debug\box2d.lib  ..\..\..\3rdParty\steamworks\redistributable_bin\steam_api.lib  ..\..\..\3rdParty\vld\lib\x86\vld.lib  opengl32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = BumblebeeLib\BumblebeeLib.lib  ..\..\..\3rdParty\SDL2\lib\x86\SDL2.lib  ..\..\..\3rdParty\SDL2\lib\x86\SDL2main.lib  ..\..\..\3rdParty\SDL2_image\lib\x86\SDL2_image.lib  ..\..\..\3rdParty\SDL2_mixer\lib\x86\SDL2_mixer.lib  ..\..\..\3rdParty\SDL2_ttf\lib\x86\SDL2_ttf.lib  ..\..\..\3rdParty\Box2D\x86\Debug\box2d.lib  ..\..\..\3rdParty\steamworks\redistributable_bin\steam_api.lib  ..\..\..\3rdParty\vld\lib\x86\vld.lib  opengl32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = BurgerTime\CMakeFiles\BurgerTime.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -2259,13 +2273,13 @@ build BurgerTime\list_install_components: phony
 # =============================================================================
 # Target aliases.
 
-build BTEngineLib: phony BTEngineLib\BTEngineLib.lib
+build BumblebeeEditor: phony BumblebeeEditor\BumblebeeEditor.exe
 
-build BTEngineLib.lib: phony BTEngineLib\BTEngineLib.lib
+build BumblebeeEditor.exe: phony BumblebeeEditor\BumblebeeEditor.exe
 
-build BTEngineVisualEditor: phony BTEngineVisualEditor\BTEngineVisualEditor.exe
+build BumblebeeLib: phony BumblebeeLib\BumblebeeLib.lib
 
-build BTEngineVisualEditor.exe: phony BTEngineVisualEditor\BTEngineVisualEditor.exe
+build BumblebeeLib.lib: phony BumblebeeLib\BumblebeeLib.lib
 
 build BurgerTime: phony BurgerTime\BurgerTime.exe
 
@@ -2335,9 +2349,11 @@ build NightlyTest: phony _deps\catch2-build\NightlyTest
 
 build NightlyUpdate: phony _deps\catch2-build\NightlyUpdate
 
-build UnitTests: phony BTEngineUnitTests\UnitTests.exe
+build UnitTests: phony BumblebeeUnitTests\UnitTests.exe
 
-build UnitTests.exe: phony BTEngineUnitTests\UnitTests.exe
+build UnitTests.exe: phony BumblebeeUnitTests\UnitTests.exe
+
+build UnitTestsRun: phony BumblebeeUnitTests\UnitTestsRun
 
 # =============================================================================
 # Folder targets.
@@ -2347,28 +2363,28 @@ build UnitTests.exe: phony BTEngineUnitTests\UnitTests.exe
 #############################################
 # Folder: C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug
 
-build all: phony BTEngineLib\all BTEngineVisualEditor\all BTEngineUnitTests\all BurgerTime\all
+build all: phony BumblebeeLib\all BumblebeeEditor\all BumblebeeUnitTests\all BurgerTime\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BTEngineLib
+# Folder: C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BumblebeeEditor
 
-build BTEngineLib\all: phony BTEngineLib\BTEngineLib.lib
-
-# =============================================================================
-
-#############################################
-# Folder: C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BTEngineUnitTests
-
-build BTEngineUnitTests\all: phony BTEngineUnitTests\UnitTests.exe _deps\catch2-build\all
+build BumblebeeEditor\all: phony BumblebeeEditor\BumblebeeEditor.exe
 
 # =============================================================================
 
 #############################################
-# Folder: C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BTEngineVisualEditor
+# Folder: C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BumblebeeLib
 
-build BTEngineVisualEditor\all: phony BTEngineVisualEditor\BTEngineVisualEditor.exe
+build BumblebeeLib\all: phony BumblebeeLib\BumblebeeLib.lib
+
+# =============================================================================
+
+#############################################
+# Folder: C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BumblebeeUnitTests
+
+build BumblebeeUnitTests\all: phony BumblebeeUnitTests\UnitTests.exe _deps\catch2-build\all
 
 # =============================================================================
 
@@ -2398,14 +2414,14 @@ build _deps\catch2-build\src\all: phony _deps\catch2-build\src\Catch2.lib _deps\
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\..\BTEngineLib\CMakeLists.txt ..\..\..\BTEngineUnitTests\CMakeLists.txt ..\..\..\BTEngineVisualEditor\CMakeLists.txt ..\..\..\BurgerTime\CMakeLists.txt ..\..\..\CMakeLists.txt C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CPack.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CPackComponent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTest.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTestTargets.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\DartConfiguration.tcl.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindGit.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\InstallRequiredSystemLibraries.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\3.21.21080301-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeSystem.cmake _deps\catch2-src\CMakeLists.txt _deps\catch2-src\CMake\MiscFunctions.cmake _deps\catch2-src\src\CMakeLists.txt
+build build.ninja: RERUN_CMAKE | ..\..\..\BumblebeeEditor\CMakeLists.txt ..\..\..\BumblebeeLib\CMakeLists.txt ..\..\..\BumblebeeUnitTests\CMakeLists.txt ..\..\..\BurgerTime\CMakeLists.txt ..\..\..\CMakeLists.txt C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CPack.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CPackComponent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTest.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTestTargets.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\DartConfiguration.tcl.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindGit.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\InstallRequiredSystemLibraries.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\3.21.21080301-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeSystem.cmake _deps\catch2-src\CMakeLists.txt _deps\catch2-src\CMake\MiscFunctions.cmake _deps\catch2-src\src\CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\..\BTEngineLib\CMakeLists.txt ..\..\..\BTEngineUnitTests\CMakeLists.txt ..\..\..\BTEngineVisualEditor\CMakeLists.txt ..\..\..\BurgerTime\CMakeLists.txt ..\..\..\CMakeLists.txt C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CPack.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CPackComponent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTest.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTestTargets.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\DartConfiguration.tcl.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindGit.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\InstallRequiredSystemLibraries.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\3.21.21080301-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeSystem.cmake _deps\catch2-src\CMakeLists.txt _deps\catch2-src\CMake\MiscFunctions.cmake _deps\catch2-src\src\CMakeLists.txt: phony
+build ..\..\..\BumblebeeEditor\CMakeLists.txt ..\..\..\BumblebeeLib\CMakeLists.txt ..\..\..\BumblebeeUnitTests\CMakeLists.txt ..\..\..\BurgerTime\CMakeLists.txt ..\..\..\CMakeLists.txt C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeRCInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CPack.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CPackComponent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTest.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTestTargets.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\DartConfiguration.tcl.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindGit.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindOpenGL.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\FindPackageMessage.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\GNUInstallDirs.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\InstallRequiredSystemLibraries.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\Windows.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\Microsoft$ Visual$ Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in CMakeCache.txt CMakeFiles\3.21.21080301-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.21.21080301-MSVC_2\CMakeSystem.cmake _deps\catch2-src\CMakeLists.txt _deps\catch2-src\CMake\MiscFunctions.cmake _deps\catch2-src\src\CMakeLists.txt: phony
 
 
 #############################################

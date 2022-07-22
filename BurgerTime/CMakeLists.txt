@@ -31,8 +31,8 @@ add_executable(BurgerTime
 	LivesComponent.cpp
 )
 
-target_include_directories(BurgerTime PUBLIC ${BTEngineLibIncDir})
-target_link_libraries(BurgerTime BTEngineLib)
+target_include_directories(BurgerTime PUBLIC ${BumblebeeLibIncDir})
+target_link_libraries(BurgerTime BumblebeeLib)
 
 # install executable
 install(TARGETS BurgerTime DESTINATION bin)

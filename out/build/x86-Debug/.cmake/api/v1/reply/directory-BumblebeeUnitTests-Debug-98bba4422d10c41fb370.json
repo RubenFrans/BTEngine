@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "BTEngineUnitTests",
-		"source" : "BTEngineUnitTests"
+		"build" : "BumblebeeUnitTests",
+		"source" : "BumblebeeUnitTests"
 	}
 }

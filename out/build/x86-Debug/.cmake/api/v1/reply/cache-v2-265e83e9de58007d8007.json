@@ -47,7 +47,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BTEngineVisualEditor"
+			"value" : "C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BumblebeeEditor"
 		},
 		{
 			"name" : "BTEngineVisualEditor_IS_TOP_LEVEL",
@@ -71,7 +71,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/School/Howest/Portfolio/BTEngine/BTEngineVisualEditor"
+			"value" : "C:/School/Howest/Portfolio/BTEngine/BumblebeeEditor"
 		},
 		{
 			"name" : "BTEngine_BINARY_DIR",
@@ -136,6 +136,150 @@
 			],
 			"type" : "UNINITIALIZED",
 			"value" : ""
+		},
+		{
+			"name" : "BumblebeeEditor_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BumblebeeEditor"
+		},
+		{
+			"name" : "BumblebeeEditor_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "BumblebeeEditor_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/School/Howest/Portfolio/BTEngine/BumblebeeEditor"
+		},
+		{
+			"name" : "BumblebeeEngine_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug"
+		},
+		{
+			"name" : "BumblebeeEngine_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "BumblebeeEngine_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/School/Howest/Portfolio/BTEngine"
+		},
+		{
+			"name" : "BumblebeeLib_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BumblebeeLib"
+		},
+		{
+			"name" : "BumblebeeLib_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "BumblebeeLib_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/School/Howest/Portfolio/BTEngine/BumblebeeLib"
+		},
+		{
+			"name" : "Bumblebee_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/School/Howest/Portfolio/BTEngine/out/build/x86-Debug/BTEngineLib"
+		},
+		{
+			"name" : "Bumblebee_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Bumblebee_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/School/Howest/Portfolio/BTEngine/BTEngineLib"
 		},
 		{
 			"name" : "BurgerTime_BINARY_DIR",
@@ -1179,7 +1323,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "BTEngine"
+			"value" : "BumblebeeEngine"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",

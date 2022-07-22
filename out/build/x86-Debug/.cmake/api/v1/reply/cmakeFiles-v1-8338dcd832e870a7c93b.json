@@ -149,7 +149,7 @@
 			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Templates/CPackConfig.cmake.in"
 		},
 		{
-			"path" : "BTEngineLib/CMakeLists.txt"
+			"path" : "BumblebeeLib/CMakeLists.txt"
 		},
 		{
 			"isCMake" : true,
@@ -167,10 +167,10 @@
 			"path" : "C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake"
 		},
 		{
-			"path" : "BTEngineVisualEditor/CMakeLists.txt"
+			"path" : "BumblebeeEditor/CMakeLists.txt"
 		},
 		{
-			"path" : "BTEngineUnitTests/CMakeLists.txt"
+			"path" : "BumblebeeUnitTests/CMakeLists.txt"
 		},
 		{
 			"isCMake" : true,

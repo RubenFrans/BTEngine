@@ -23,53 +23,54 @@
 					"source" : "."
 				},
 				{
-					"build" : "BTEngineLib",
+					"build" : "BumblebeeLib",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-BTEngineLib-Debug-bd9240f97cac51e0b1c6.json",
+					"jsonFile" : "directory-BumblebeeLib-Debug-34e232322189e4dff25f.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "BTEngineLib",
-					"targetIndexes" : 
-					[
-						0
-					]
-				},
-				{
-					"build" : "BTEngineVisualEditor",
-					"jsonFile" : "directory-BTEngineVisualEditor-Debug-eced248fe33209e8ec36.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.20"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 2,
-					"source" : "BTEngineVisualEditor",
+					"source" : "BumblebeeLib",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "BTEngineUnitTests",
+					"build" : "BumblebeeEditor",
+					"jsonFile" : "directory-BumblebeeEditor-Debug-22e814d096230813864c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "BumblebeeEditor",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "BumblebeeUnitTests",
 					"childIndexes" : 
 					[
 						4
 					],
-					"jsonFile" : "directory-BTEngineUnitTests-Debug-2c84d38d6ab54e91fa88.json",
+					"jsonFile" : "directory-BumblebeeUnitTests-Debug-98bba4422d10c41fb370.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "BTEngineUnitTests",
+					"source" : "BumblebeeUnitTests",
 					"targetIndexes" : 
 					[
-						33
+						33,
+						34
 					]
 				},
 				{
@@ -167,10 +168,11 @@
 						0,
 						3
 					],
-					"name" : "BTEngine",
+					"name" : "BumblebeeEngine",
 					"targetIndexes" : 
 					[
-						33
+						33,
+						34
 					]
 				},
 				{
@@ -178,11 +180,11 @@
 					[
 						1
 					],
-					"name" : "BTEngineLib",
+					"name" : "BumblebeeLib",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0
+						1
 					]
 				},
 				{
@@ -190,11 +192,11 @@
 					[
 						2
 					],
-					"name" : "BTEngineVisualEditor",
+					"name" : "BumblebeeEditor",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						0
 					]
 				},
 				{
@@ -255,23 +257,23 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 1,
-					"id" : "BTEngineLib::@bbe19383aadf853ac8d5",
-					"jsonFile" : "target-BTEngineLib-Debug-97b8ea3edc88eb8d23ad.json",
-					"name" : "BTEngineLib",
-					"projectIndex" : 1
+					"directoryIndex" : 2,
+					"id" : "BumblebeeEditor::@803b9630fae3b7c16334",
+					"jsonFile" : "target-BumblebeeEditor-Debug-afec200c7614601bffae.json",
+					"name" : "BumblebeeEditor",
+					"projectIndex" : 2
 				},
 				{
-					"directoryIndex" : 2,
-					"id" : "BTEngineVisualEditor::@3d01bb822ce3caa00e7e",
-					"jsonFile" : "target-BTEngineVisualEditor-Debug-5ba8c8a3596c7525c02e.json",
-					"name" : "BTEngineVisualEditor",
-					"projectIndex" : 2
+					"directoryIndex" : 1,
+					"id" : "BumblebeeLib::@693704cec494709bfb99",
+					"jsonFile" : "target-BumblebeeLib-Debug-e86d08f3375419e60631.json",
+					"name" : "BumblebeeLib",
+					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "BurgerTime::@fc80d7c74ca4b982779e",
-					"jsonFile" : "target-BurgerTime-Debug-3e003c60a242c22d0a25.json",
+					"jsonFile" : "target-BurgerTime-Debug-b7bf51d990c7bb7faa3a.json",
 					"name" : "BurgerTime",
 					"projectIndex" : 4
 				},
@@ -487,9 +489,16 @@
 				},
 				{
 					"directoryIndex" : 3,
-					"id" : "UnitTests::@65ac6543b15c1f0fdc33",
-					"jsonFile" : "target-UnitTests-Debug-c03e1b665206a4a348b4.json",
+					"id" : "UnitTests::@ec6f8ee4545d4334167a",
+					"jsonFile" : "target-UnitTests-Debug-b29935576f3a311eba51.json",
 					"name" : "UnitTests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "UnitTestsRun::@ec6f8ee4545d4334167a",
+					"jsonFile" : "target-UnitTestsRun-Debug-b0dd030e421363704ba6.json",
+					"name" : "UnitTestsRun",
 					"projectIndex" : 0
 				}
 			]

@@ -1,22 +1,22 @@
 # Root directory of the BTEngine project
 cmake_minimum_required(VERSION 3.20)
-project(BTEngine)
+project(BumblebeeEngine)
 
 # subproject Game Engine library
-add_subdirectory(BTEngineLib)
+add_subdirectory(BumblebeeLib)
 
 # subproject Game Engine visual Editor
-add_subdirectory(BTEngineVisualEditor)
+add_subdirectory(BumblebeeEditor)
 
 # subproject unit tests
-add_subdirectory(BTEngineUnitTests)
+add_subdirectory(BumblebeeUnitTests)
 
 # subproject burgertime
 add_subdirectory(BurgerTime)
 
 # Dependencies
-add_dependencies(BTEngineVisualEditor BTEngineLib)
-add_dependencies(BurgerTime BTEngineLib)
+add_dependencies(BumblebeeEditor BumblebeeLib)
+add_dependencies(BurgerTime BumblebeeLib)
 
 # includes
 include(InstallRequiredSystemLibraries)

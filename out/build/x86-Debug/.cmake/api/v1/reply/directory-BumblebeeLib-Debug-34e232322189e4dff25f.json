@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"BTEngineLib/CMakeLists.txt"
+			"BumblebeeLib/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -341,7 +341,7 @@
 	],
 	"paths" : 
 	{
-		"build" : "BTEngineLib",
-		"source" : "BTEngineLib"
+		"build" : "BumblebeeLib",
+		"source" : "BumblebeeLib"
 	}
 }

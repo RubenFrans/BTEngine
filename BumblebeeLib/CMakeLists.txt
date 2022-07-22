@@ -1,9 +1,9 @@
-# BTEngineLib cmake file
+# BumblebeeLib cmake file
 
-project(BTEngineLib) 
+project(BumblebeeLib) 
 
 # configure project soures
-add_library(BTEngineLib
+add_library(BumblebeeLib
 	InputManager.h
 	InputManager2.cpp
 	InputManager2.h
@@ -130,12 +130,12 @@ add_library(BTEngineLib
 message("BUILDING FOR ${CMAKE_BUILD_TYPE}")
 
 # set language standard
-set_property(TARGET BTEngineLib PROPERTY CXX_STANDARD 17)
+set_property(TARGET BumblebeeLib PROPERTY CXX_STANDARD 17)
 
 # glm
 set(glmIncDir ${CMAKE_SOURCE_DIR}/3rdParty/glm)
 add_library(glm INTERFACE)
-target_include_directories(BTEngineLib PUBLIC ${glmIncDir})
+target_include_directories(BumblebeeLib PUBLIC ${glmIncDir})
 
 # SDL2 (SDL2, SDL2_image, SDL2_mixer, SDL2_ttf)
 ## Support x64 and x86 builds for SDL
@@ -208,8 +208,8 @@ endif()
 
 set(SDL2_INCLUDE_DIRS
 "${CMAKE_SOURCE_DIR}/3rdParty/SDL2/include;${CMAKE_SOURCE_DIR}/3rdParty/SDL2_image/include;${CMAKE_SOURCE_DIR}/3rdParty/SDL2_mixer/include;${CMAKE_SOURCE_DIR}/3rdParty/SDL2_ttf/include")
-target_include_directories(BTEngineLib PUBLIC ${SDL2_INCLUDE_DIRS})
-target_link_libraries(BTEngineLib PUBLIC ${SDL_LIBRARIES})
+target_include_directories(BumblebeeLib PUBLIC ${SDL2_INCLUDE_DIRS})
+target_link_libraries(BumblebeeLib PUBLIC ${SDL_LIBRARIES})
 
 # Box2D
 
@@ -239,8 +239,8 @@ endif()
 
 set(BOX2D_INCLUDE_DIRS "${CMAKE_SOURCE_DIR}/3rdParty/Box2D/include")
 
-target_include_directories(BTEngineLib PUBLIC ${BOX2D_INCLUDE_DIRS})
-target_link_libraries(BTEngineLib PUBLIC ${BOX2D_LIBRARIES})
+target_include_directories(BumblebeeLib PUBLIC ${BOX2D_INCLUDE_DIRS})
+target_link_libraries(BumblebeeLib PUBLIC ${BOX2D_LIBRARIES})
 
 
 
@@ -267,8 +267,8 @@ endif()
 
 set(STEAMWORKS_INCLUDE_DIRS "${CMAKE_SOURCE_DIR}/3rdParty/steamworks/include")
 
-target_include_directories(BTEngineLib PUBLIC ${STEAMWORKS_INCLUDE_DIRS})
-target_link_libraries(BTEngineLib PUBLIC ${STEAMWORKS_LIBRARIES})
+target_include_directories(BumblebeeLib PUBLIC ${STEAMWORKS_INCLUDE_DIRS})
+target_link_libraries(BumblebeeLib PUBLIC ${STEAMWORKS_LIBRARIES})
 
 
 # VLD (Visual Leak Detector)
@@ -284,12 +284,12 @@ endif()
 
 set(VLD_INCLUDE_DIRS "${CMAKE_SOURCE_DIR}/3rdParty/vld/include")
 
-target_include_directories(BTEngineLib PUBLIC ${VLD_INCLUDE_DIRS})
-target_link_libraries(BTEngineLib PUBLIC ${VLD_LIBRARIES})
+target_include_directories(BumblebeeLib PUBLIC ${VLD_INCLUDE_DIRS})
+target_link_libraries(BumblebeeLib PUBLIC ${VLD_LIBRARIES})
 
 # OPENGL
 find_package(OpenGL)
-target_include_directories(BTEngineLib PUBLIC ${OPENGL_INCLUDE_DIRECTORY})
-target_link_libraries( BTEngineLib PUBLIC OpenGL::GL)
+target_include_directories(BumblebeeLib PUBLIC ${OPENGL_INCLUDE_DIRECTORY})
+target_link_libraries( BumblebeeLib PUBLIC OpenGL::GL)
 
-set(BTEngineLibIncDir ${CMAKE_CURRENT_SOURCE_DIR} PARENT_SCOPE)
+set(BumblebeeLibIncDir ${CMAKE_CURRENT_SOURCE_DIR} PARENT_SCOPE)
