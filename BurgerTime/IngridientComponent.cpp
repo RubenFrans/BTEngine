@@ -1,11 +1,11 @@
 #include "IngridientComponent.h"
-#include "TransformComponent.h"
-#include "AnimationComponent.h"
-#include "RenderComponent.h"
-//#include "CollisionComponent.h"
-#include "BoxCollider.h"
+#include "Components/TransformComponent/TransformComponent.h"
+#include "Components/AnimationComponent/AnimationComponent.h"
+#include "Components/RenderComponent/RenderComponent.h"
+//#include "Components\CollisionComponent\CollisionComponent.h"
+#include "Components/ColliderComponent/BoxCollider/BoxCollider.h"
 #include "IngredientPartComponent.h"
-#include "Scene.h"
+#include "Scene/Scene.h"
 
 enum class IngredientType {
 	BunTop,

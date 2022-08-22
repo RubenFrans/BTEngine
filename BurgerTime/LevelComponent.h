@@ -1,11 +1,11 @@
 #pragma once
-#include "BaseComponent.h"
+#include "Components/BaseComponent.h"
 #include <string>
 #include <vector>
 #include <memory>
-#include "GameObject.h"
-#include "structs.h"
-#include "PhysicsManager.h"
+#include "GameObject/GameObject.h"
+#include "Structs/structs.h"
+#include "Physics/PhysicsManager.h"
 
 class RenderComponent;
 

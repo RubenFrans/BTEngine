@@ -1,7 +1,7 @@
-#include "MiniginPCH.h"
+
 #include "PointsComponent.h"
-#include "GameObject.h"
-#include "TextComponent.h"
+#include "GameObject/GameObject.h"
+#include "Components/TextComponent/TextComponent.h"
 
 PointsComponent::PointsComponent(BTEngine::GameObject* pOwner)
 	: BaseComponent{ pOwner }, m_AmountOfPoints{ 0 }

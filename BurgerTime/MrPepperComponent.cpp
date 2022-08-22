@@ -1,14 +1,14 @@
 #pragma once
-#include "MiniginPCH.h"
+
 #include "MrPepperComponent.h"
-#include "TransformComponent.h"
-#include "TimeManager.h"
-#include "AnimationComponent.h"
-#include "CollisionComponent.h"
+#include "Components/TransformComponent/TransformComponent.h"
+#include "Time/TimeManager.h"
+#include "Components/AnimationComponent/AnimationComponent.h"
+#include "Components\CollisionComponent\CollisionComponent.h"
 #include "PlatformComponent.h"
-#include "RigidBodyComponent.h"
-#include "ColliderComponent.h"
-#include "CircleCollider.h"
+#include "Components/RigidBodyComponent/RigidBodyComponent.h"
+#include "Components/ColliderComponent/ColliderComponent.h"
+#include "Components\ColliderComponent\CircleCollider\CircleCollider.h"
 
 MrPepperComponent::MrPepperComponent(BTEngine::GameObject* pOwner)
 	: BaseComponent{ pOwner }, m_IsDead{ false }

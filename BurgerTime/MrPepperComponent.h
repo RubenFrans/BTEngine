@@ -1,7 +1,7 @@
 #pragma once
-#include "BaseComponent.h"
-#include "Subject.h"
-#include "structs.h"
+#include "Components/BaseComponent.h"
+#include "Observer/Subject.h"
+#include "Structs/structs.h"
 
 class TransformComponent;
 class AnimationComponent;

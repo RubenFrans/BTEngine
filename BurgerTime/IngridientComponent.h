@@ -1,12 +1,12 @@
 #pragma once
-#include "GameObject.h"
-#include "BaseComponent.h"
-#include "PhysicsManager.h"
+#include "GameObject/GameObject.h"
+#include "Components/BaseComponent.h"
+#include "Physics/PhysicsManager.h"
 #include <memory>
-#include "Scene.h"
+#include "Scene/Scene.h"
 #include <iostream>
-#include "GameObject.h"
-#include "TimeManager.h"
+#include "GameObject/GameObject.h"
+#include "Time/TimeManager.h"
 
 //class BTEngine::Scene;
 class IngredientPartComponent;

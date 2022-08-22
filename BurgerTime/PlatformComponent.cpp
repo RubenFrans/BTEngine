@@ -1,5 +1,5 @@
 #include "PlatformComponent.h"
-#include "AnimationComponent.h"
+#include "Components/AnimationComponent/AnimationComponent.h"
 
 PlatformComponent::PlatformComponent(BTEngine::GameObject* pOwner)
 	: BaseComponent{ pOwner }

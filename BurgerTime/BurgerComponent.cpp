@@ -1,4 +1,3 @@
-#include "MiniginPCH.h"
 #include "BurgerComponent.h"
 
 BurgerComponent::BurgerComponent(BTEngine::GameObject* pOwner)

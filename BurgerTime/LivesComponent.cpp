@@ -1,7 +1,7 @@
-#include "MiniginPCH.h"
+
 #include "LivesComponent.h"
-#include "TextComponent.h"
-#include "GameObject.h"
+#include "Components/TextComponent/TextComponent.h"
+#include "GameObject/GameObject.h"
 
 LivesComponent::LivesComponent(BTEngine::GameObject* pOwner)
     : BaseComponent{ pOwner }, m_CurrentAmountOfLives{ 3 }

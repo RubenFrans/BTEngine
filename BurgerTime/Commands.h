@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Command.h"
+#include "Input/Commands/Command.h"
 #include "MrPepperComponent.h"
 #include "BurgerComponent.h"
 #include "EnemyComponent.h"

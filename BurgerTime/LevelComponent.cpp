@@ -1,13 +1,13 @@
 #include "LevelComponent.h"
-#include "RenderComponent.h"
-#include "AnimationComponent.h"
-#include "TransformComponent.h"
+#include "Components/RenderComponent/RenderComponent.h"
+#include "Components/AnimationComponent/AnimationComponent.h"
+#include "Components/TransformComponent/TransformComponent.h"
 #include "PlatformComponent.h"
-#include "RigidBodyComponent.h"
-#include "ColliderComponent.h"
+#include "Components/RigidBodyComponent/RigidBodyComponent.h"
+#include "Components/ColliderComponent/ColliderComponent.h"
 #include <fstream>
 #include <iostream>
-#include "BoxCollider.h"
+#include "Components/ColliderComponent/BoxCollider/BoxCollider.h"
 
 LevelComponent::LevelComponent(BTEngine::GameObject* pOwner)
 	: BaseComponent{ pOwner }

@@ -1,6 +1,6 @@
 #pragma once
-#include "BaseComponent.h"
-#include "Observer.h"
+#include "Components/BaseComponent.h"
+#include "Observer/Observer.h"
 
 class LivesComponent :
     public BaseComponent, public Observer

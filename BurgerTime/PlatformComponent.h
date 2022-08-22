@@ -1,5 +1,5 @@
 #pragma once
-#include "BaseComponent.h"
+#include "Components/BaseComponent.h"
 
 class BTEngine::GameObject;
 class AnimationComponent;

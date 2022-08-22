@@ -1,7 +1,7 @@
 #pragma once
-#include "BaseComponent.h"
+#include "Components/BaseComponent.h"
 #include <functional>
-#include "structs.h"
+#include "Structs/structs.h"
 
 
 class BTEngine::GameObject;

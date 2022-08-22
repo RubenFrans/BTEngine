@@ -1,9 +1,9 @@
 #include "IngredientPartComponent.h"
 #include "MrPepperComponent.h"
 #include <string>
-#include "TransformComponent.h"
-#include "BoxCollider.h"
-#include "GameObject.h"
+#include "Components/TransformComponent/TransformComponent.h"
+#include "Components/ColliderComponent/BoxCollider/BoxCollider.h"
+#include "GameObject/GameObject.h"
 
 IngredientPartComponent::IngredientPartComponent(BTEngine::GameObject* pOwner)
 	: BaseComponent(pOwner)

@@ -1,30 +1,28 @@
-#include "MiniginPCH.h"
-#include "Minigin.h"
 #include <thread>
-#include "InputManager2.h"
-#include "SceneManager.h"
-#include "Renderer.h"
-#include "ResourceManager.h"
-#include "TextObject.h"
-#include "GameObject.h"
-#include "Scene.h"
+#include "Input/InputManager2.h"
+#include "Scene/SceneManager.h"
+#include "Rendering/Renderer.h"
+#include "ResourceManager/ResourceManager.h"
+#include "Deprecated/TextObject.h"
+#include "GameObject/GameObject.h"
+#include "Scene/Scene.h"
 #include <chrono>
-#include "TimeManager.h"
+#include "Time/TimeManager.h"
 #include <steam_api.h>
 
-#include "TextComponent.h"
-#include "RenderComponent.h"
-#include "TransformComponent.h"
-#include "FPSComponent.h"
-#include "RGBColor.h"
-#include "ImGuiPlotComponent.h"
+#include "Components/TextComponent/TextComponent.h"
+#include "Components/RenderComponent/RenderComponent.h"
+#include "Components/TransformComponent/TransformComponent.h"
+#include "Components/FPSComponent/FPSComponent.h"
+#include "Components/TextComponent/RGBColor.h"
+#include "Components/ImguiRenderComponent/ImguiPlotComponent/ImGuiPlotComponent.h"
 
 #include "SDL_mixer.h"
 
-#include "AudioSystemLocator.h"
-#include "WindowsAudioSystem.h"
-#include "AudioSystem.h"
-#include "Command.h"
+#include "Services/AudioService/AudioSystemLocator.h"
+#include "AudioSystem/WindowsAudioSystem/WindowsAudioSystem.h"
+#include "AudioSystem/AudioSystem.h"
+#include "Input/Commands/Command.h"
 
 using namespace std;
 

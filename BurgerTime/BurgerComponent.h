@@ -1,6 +1,6 @@
 #pragma once
-#include "BaseComponent.h"
-#include "Subject.h"
+#include "Components/BaseComponent.h"
+#include "Observer/Subject.h" 
 
 class BurgerComponent :
     public BaseComponent, public Subject

@@ -1,7 +1,7 @@
 #pragma once
-#include "BaseComponent.h"
-#include "Observer.h"
-#include "Subject.h"
+#include "Components/BaseComponent.h"
+#include "Observer/Observer.h"
+#include "Observer/Subject.h"
 
 class PointsComponent :
     public BaseComponent, public Observer, public Subject
