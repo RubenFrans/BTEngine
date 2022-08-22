@@ -127,7 +127,7 @@ add_library(BumblebeeLib
 	#CMakeLists.txt
 )
 
-target_precompile_headers(BumblebeeLib PRIVATE MiniginPCH.cpp)
+target_precompile_headers(BumblebeeLib PRIVATE MiniginPCH.h)
 target_include_directories(BumblebeeLib PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}	)
 
 message("BUILDING FOR ${CMAKE_BUILD_TYPE}")
