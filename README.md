@@ -64,16 +64,16 @@ These components are added to a gameobject to provide logic for rendering, playe
 ##### Creating a scene with physics enabled
 ```cpp
 auto& scene = SceneManager::GetInstance().CreateScene("Demo");
-	auto font = ResourceManager::GetInstance().LoadFont("Lingua.otf", 36);
-	AudioSystemLocator::GetAudio().LoadAudioClip(0, "Navi - Hey.mp3", true);
+auto font = ResourceManager::GetInstance().LoadFont("Lingua.otf", 36);
+AudioSystemLocator::GetAudio().LoadAudioClip(0, "Navi - Hey.mp3", true);
 
-	auto physics = std::make_shared<PhysicsManager>();
-	scene.Add(physics);
+auto physics = std::make_shared<PhysicsManager>();
+scene.Add(physics);
 ```
 ##### Creating a player game object
 ```cpp
-	auto mrPepper = std::make_shared<GameObject>();
-	mrPepper->SetTag("Peter");
+auto mrPepper = std::make_shared<GameObject>();
+mrPepper->SetTag("Peter");
 ```
 ###### Adding components
 ```cpp
