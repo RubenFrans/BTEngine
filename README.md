@@ -77,36 +77,36 @@ auto& scene = SceneManager::GetInstance().CreateScene("Demo");
 ```
 ###### Adding components
 ```cpp
-  auto pepperComp = mrPepper->AddComponent<MrPepperComponent>();
+auto pepperComp = mrPepper->AddComponent<MrPepperComponent>();
 	
-  auto pepperTransform = mrPepper->AddComponent<TransformComponent>();
-	pepperTransform->SetSize(50.0f, 50.0f);
-	pepperTransform->Translate(150.0f, 100.0f);
+auto pepperTransform = mrPepper->AddComponent<TransformComponent>();
+pepperTransform->SetSize(50.0f, 50.0f);
+pepperTransform->Translate(150.0f, 100.0f);
 	
-  mrPepper->AddComponent<RenderComponent>()->SetTexture("spritesheet.png");
-  mrPepper->AddComponent<AnimationComponent>();
-  mrPepper->AddComponent<RigidBodyComponent>();
-  auto collider = mrPepper->AddComponent<CircleCollider>();
-  collider->SetRadius(25.0f);
+mrPepper->AddComponent<RenderComponent>()->SetTexture("spritesheet.png");
+mrPepper->AddComponent<AnimationComponent>();
+mrPepper->AddComponent<RigidBodyComponent>();
+auto collider = mrPepper->AddComponent<CircleCollider>();
+collider->SetRadius(25.0f);
 ```
 ###### Mapping Controller Buttons
 ```cpp
-  InputManager::GetInstance().AddButtonMapping(ControllerButton::DPad_Right, std::make_shared<MoveRightCommand>(pepperComp), ButtonBehaviour::Pressed, 0);
-	InputManager::GetInstance().AddButtonMapping(ControllerButton::DPad_Left, std::make_shared<MoveLeftCommand>(pepperComp), ButtonBehaviour::Pressed, 0);
-	InputManager::GetInstance().AddButtonMapping(ControllerButton::DPad_Up, std::make_shared<MoveUpCommand>(pepperComp), ButtonBehaviour::Pressed, 0);
-	InputManager::GetInstance().AddButtonMapping(ControllerButton::DPad_Down, std::make_shared<MoveDownCommand>(pepperComp), ButtonBehaviour::Pressed, 0);
-	InputManager::GetInstance().AddButtonMapping(ControllerButton::ButtonA, std::make_shared<PlaySoundCommand>(), ButtonBehaviour::DownThisFrame);
+InputManager::GetInstance().AddButtonMapping(ControllerButton::DPad_Right, std::make_shared<MoveRightCommand>(pepperComp), ButtonBehaviour::Pressed, 0);
+InputManager::GetInstance().AddButtonMapping(ControllerButton::DPad_Left, std::make_shared<MoveLeftCommand>(pepperComp), ButtonBehaviour::Pressed, 0);
+InputManager::GetInstance().AddButtonMapping(ControllerButton::DPad_Up, std::make_shared<MoveUpCommand>(pepperComp), ButtonBehaviour::Pressed, 0);
+InputManager::GetInstance().AddButtonMapping(ControllerButton::DPad_Down, std::make_shared<MoveDownCommand>(pepperComp), ButtonBehaviour::Pressed, 0);
+InputManager::GetInstance().AddButtonMapping(ControllerButton::ButtonA, std::make_shared<PlaySoundCommand>(), ButtonBehaviour::DownThisFrame);
 ```
 ###### Mapping Keyboard Buttons
 ```cpp
-	InputManager::GetInstance().AddKeyboardMapping(KeyboardButton::RightArrow, std::make_shared<MoveRightCommand>(pepperComp), ButtonBehaviour::Pressed);
-	InputManager::GetInstance().AddKeyboardMapping(KeyboardButton::LeftArrow, std::make_shared<MoveLeftCommand>(pepperComp), ButtonBehaviour::Pressed);
-	InputManager::GetInstance().AddKeyboardMapping(KeyboardButton::UpArrow, std::make_shared<MoveUpCommand>(pepperComp), ButtonBehaviour::Pressed);
-	InputManager::GetInstance().AddKeyboardMapping(KeyboardButton::DownArrow, std::make_shared<MoveDownCommand>(pepperComp), ButtonBehaviour::Pressed);
+InputManager::GetInstance().AddKeyboardMapping(KeyboardButton::RightArrow, std::make_shared<MoveRightCommand>(pepperComp), ButtonBehaviour::Pressed);
+InputManager::GetInstance().AddKeyboardMapping(KeyboardButton::LeftArrow, std::make_shared<MoveLeftCommand>(pepperComp), ButtonBehaviour::Pressed);
+InputManager::GetInstance().AddKeyboardMapping(KeyboardButton::UpArrow, std::make_shared<MoveUpCommand>(pepperComp), ButtonBehaviour::Pressed);
+InputManager::GetInstance().AddKeyboardMapping(KeyboardButton::DownArrow, std::make_shared<MoveDownCommand>(pepperComp), ButtonBehaviour::Pressed);
 ```
 ##### Adding the created object to the scene
 ```cpp
-	scene.Add(mrPepper);
+scene.Add(mrPepper);
 ```
 
 ## Building using CMAKE
