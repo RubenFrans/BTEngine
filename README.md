@@ -8,10 +8,9 @@ by adding different components to the game object that provide logic and functio
 For objects that don't require rendering or a transform, you can use a SceneObject instead of GameObject.
 
 ```cpp
-class BaseComponent;
-
 namespace BTEngine
 {
+	class BaseComponent;
 	class Texture2D;
 
 	class GameObject final : public SceneObject
