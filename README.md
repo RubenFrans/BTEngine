@@ -84,11 +84,10 @@ auto& scene = SceneManager::GetInstance().CreateScene("Demo");
 	pepperTransform->Translate(150.0f, 100.0f);
 	
   mrPepper->AddComponent<RenderComponent>()->SetTexture("spritesheet.png");
-	mrPepper->AddComponent<AnimationComponent>();
-  
-	mrPepper->AddComponent<RigidBodyComponent>();
-	auto collider = mrPepper->AddComponent<CircleCollider>();
-		collider->SetRadius(25.0f);
+  mrPepper->AddComponent<AnimationComponent>();
+  mrPepper->AddComponent<RigidBodyComponent>();
+  auto collider = mrPepper->AddComponent<CircleCollider>();
+  collider->SetRadius(25.0f);
 ```
 ###### Mapping Controller Buttons
 ```cpp
