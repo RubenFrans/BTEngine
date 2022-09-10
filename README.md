@@ -60,7 +60,7 @@ namespace BTEngine
 The engine supports a component system where components inherit from the BaseComponent class.
 These components are added to a gameobject to provide logic for rendering, player input or adding animation etc..
 
-#### Examples
+### Examples
 ##### Creating a scene with physics enabled
 ```cpp
 auto& scene = SceneManager::GetInstance().CreateScene("Demo");
